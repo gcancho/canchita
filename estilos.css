@@ -7,6 +7,8 @@
   xxl: 1400px
   */
 
+/*------------- START VISTA INICIO  ----------------*/
+
 .cabecera {
   position: relative;
 }
@@ -31,7 +33,7 @@
 }
 
 .container-dropdown {
-  height: 200px;
+  /* height: 80px; */
 }
 
 .apoyo-desarrollador {
@@ -44,10 +46,31 @@
 }
 
 .footer {
-  height: 60px;
-  background-color: green;
+  /* height: 60px; */
+  margin-top: 20px;
+  border-top: 1px solid #000;
+  background-color: rgb(122, 188, 122);
+}
+
+.footer p:first-child {
+  text-transform: uppercase;
+  color: rgb(136, 63, 63);
+  font-weight: bold;
+}
+
+.footer p:last-child {
+  font-weight: bold;
+}
+
+.footer .redes-sociales i {
+  font-size: 30px;
+  margin: 0 15px;
+  color: #000;
 }
 @media (min-width: 768px) {
+  .fa-heart {
+    font-size: 30px;
+  }
   .contenido-cabecera {
     position: absolute;
     top: calc(50% - 102px);
@@ -58,14 +81,21 @@
   }
 
   .menu {
+    background-color: #fff;
     position: absolute;
-    bottom: -180px;
+    bottom: -208px;
     left: 30%;
     display: flex;
+    border: 1px solid #000;
   }
 
   .menu__item {
+    color: #000;
     font-size: 30px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
+    padding: 0 10px;
+    border-right: 1px solid #000;
   }
 }
+
+/*------------- END VISTA INICIO  ----------------*/
