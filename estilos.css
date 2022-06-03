@@ -36,9 +36,14 @@
   /* height: 80px; */
 }
 
+.dropdown > label {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
 .apoyo-desarrollador {
   height: 300px;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   margin-top: 15px;
 }
 .apoyo-desarrollador__img {
@@ -99,3 +104,30 @@
 }
 
 /*------------- END VISTA INICIO  ----------------*/
+.img-nosotros {
+  width: 240px;
+}
+
+.lista-cancha {
+  max-height: 450px;
+  overflow-y: scroll;
+}
+
+.lista_cancha__boton {
+  border: 1px solid #000 !important;
+}
+
+.lista_cancha__boton:hover,
+.lista_cancha__boton:focus {
+  background-color: #65b55d !important;
+}
+
+.botones__admin {
+  width: 100px;
+}
+@media (min-width: 768px) {
+  .img-nosotros {
+    width: 500px;
+  }
+}
+/*------------- START VISTA ACERCA DE NOSOTROS  ----------------*/
