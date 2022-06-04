@@ -32,6 +32,10 @@
   filter: brightness(70%);
 }
 
+.img-lapadula {
+  display: none;
+}
+
 .container-dropdown {
   /* height: 80px; */
 }
@@ -43,7 +47,7 @@
 
 .apoyo-desarrollador {
   height: 300px;
-  /* background-color: aquamarine; */
+  background-color: #b1f9f7;
   margin-top: 15px;
 }
 .apoyo-desarrollador__img {
@@ -60,6 +64,27 @@
 
 .canchita__item__boton {
   margin: 5px 0;
+}
+
+.container-img-canchita {
+  position: relative;
+}
+.canchita-item__distrito {
+  background-color: #071345;
+  color: #fff;
+  position: absolute;
+  left: 12px;
+  top: 0;
+  min-width: 90px;
+  padding: 0 10px;
+}
+
+.contacto-cancha {
+  margin: 40px 0;
+}
+
+.contacto-cancha a {
+  width: 300px;
 }
 
 .footer {
@@ -107,11 +132,26 @@
   }
 
   .menu__item {
-    color: #000;
     font-size: 30px;
-    /* margin-left: 30px; */
+    border: 1px solid #fff;
+    background: #000;
+    color: #fff;
     padding: 0 10px;
     border-right: 1px solid #000;
+  }
+
+  .menu__item:hover {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .img-lapadula {
+    display: block;
+    filter: grayscale(10);
+    width: 120px;
+    position: absolute;
+    left: 45%;
   }
 }
 
