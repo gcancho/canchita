@@ -196,8 +196,8 @@
   margin: 0 auto;
   width: 95%;
   min-height: 500px;
-  background-color: #dfffe0;
   text-align: center;
+  background-color: #fdfdfd;
 }
 
 .detalle-cancha__img {
@@ -205,7 +205,6 @@
 }
 
 .detalle-cancha__datos {
-  background-color: #8effa0;
   text-align: left;
 }
 
