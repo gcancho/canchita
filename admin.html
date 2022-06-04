@@ -107,7 +107,137 @@
           </div>
           <div class="col-4 d-flex flex-column">
             <a class="btn btn-warning my-2 botones__admin" href="#">Editar</a>
-            <a class="btn btn-success my-2 botones__admin" href="#">Agregar</a>
+            <!-- Modal -->
+            <a
+              type="button"
+              class="btn btn-primary my-2 botones__admin"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal3"
+              href="#"
+              >Agregar</a
+            >
+
+            <div
+              class="modal fade"
+              id="exampleModal3"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel3"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Agregar nueva canchita
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Nombre cancha</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Distrito</label>
+                      <select
+                        class="form-select"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Seleccione distrito</option>
+                        <option value="1">Lima</option>
+                        <option value="2">San Borja</option>
+                        <option value="3">Magdalena</option>
+                        <option value="4">San Juan de Lurigancho</option>
+                      </select>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput2" class="form-label"
+                        >Dirección</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="exampleFormControlInput2"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput3" class="form-label"
+                        >N° RUC</label
+                      >
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="exampleFormControlInput3"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput4" class="form-label"
+                        >Numero de celular</label
+                      >
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="exampleFormControlInput4"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput5" class="form-label"
+                        >Horario</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="exampleFormControlInput5"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="flexCheckDefault"
+                        />
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Estacionamiento
+                        </label>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="formFileMultiple" class="form-label"
+                        >Fotos de la canchita</label
+                      >
+                      <input
+                        class="form-control"
+                        type="file"
+                        id="formFileMultiple"
+                        multiple
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="formFile" class="form-label"
+                        >Carta de bebidas</label
+                      >
+                      <input class="form-control" type="file" id="formFile" />
+                    </div>
+                    <a class="btn btn-success" href="">Agregar canchita</a>
+                    <a class="btn btn-danger" href="">Cancelar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <a class="btn btn-danger my-2 botones__admin" href="#">Eliminar</a>
           </div>
         </div>
