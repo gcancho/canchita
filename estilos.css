@@ -185,6 +185,13 @@
 /*------------- START VISTA ACERCA DE NOSOTROS  ----------------*/
 
 /*------------- START VISTA DETALLE CANCHA  ----------------*/
+.modal-dialog {
+  margin: 0 auto !important;
+}
+
+.modal-content {
+  width: 640px !important;
+}
 .detalle-cancha {
   margin: 0 auto;
   width: 95%;
