@@ -50,6 +50,18 @@
   width: 100%;
 }
 
+.canchita-item {
+  margin: 30px 0;
+}
+
+.canchita-item div p {
+  margin: -2px 0;
+}
+
+.canchita__item__boton {
+  margin: 5px 0;
+}
+
 .footer {
   /* height: 60px; */
   margin-top: 20px;
@@ -131,3 +143,46 @@
   }
 }
 /*------------- START VISTA ACERCA DE NOSOTROS  ----------------*/
+
+/*------------- START VISTA DETALLE CANCHA  ----------------*/
+.detalle-cancha {
+  margin: 0 auto;
+  width: 95%;
+  min-height: 500px;
+  background-color: #dfffe0;
+  text-align: center;
+}
+
+.detalle-cancha__img {
+  width: 100%;
+}
+
+.detalle-cancha__datos {
+  background-color: #8effa0;
+  text-align: left;
+}
+
+.detalle-cancha__datos p {
+  margin-bottom: 0.5px;
+}
+
+.detalle-cancha .btn-group {
+  display: block;
+}
+
+.detalle-cancha .btn-group .btn {
+  margin-right: 10px;
+}
+
+.detalle-cancha .btn-group .btn i {
+  margin-left: 6px;
+}
+
+@media (min-width: 768px) {
+  .detalle-cancha__datos div {
+    font-size: 18px;
+    margin: 15px 0;
+  }
+}
+
+/*------------- END VISTA DETALLE CANCHA  ----------------*/
